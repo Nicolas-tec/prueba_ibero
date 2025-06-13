@@ -24,6 +24,7 @@
   </thead>
   <tbody>
     <tr>
+        
         @foreach ($datos as $inventario)
                   <th>{{$inventario->id}}</th>
                   <td>{{$inventario->Nombre_producto}}</td>
@@ -35,7 +36,7 @@
                   <td><input type="button" value="editar"></td>
                   <td><input type="button" value="eliminar"></td>
         @endforeach
-    </tr>
+    </tr>-
   </tbody>
 </table>
 </body>
